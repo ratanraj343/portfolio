@@ -1,20 +1,81 @@
-<<<<<<< HEAD
-# React + Vite
+# Ratan Kumar — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website built to showcase my projects, skills, and experience as I transition from Drupal frontend development toward React-focused frontend roles.
 
-Currently, two official plugins are available:
+🔗 **Live site:** [ratankumar.vercel.app](https://ratankumar.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
 
-## React Compiler
+- **React** — component-based UI
+- **Vite** — build tool and dev server
+- **Tailwind CSS** — utility-first styling
+- **EmailJS** — contact form email delivery (no backend required)
+- **Vercel** — hosting and deployment
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Responsive multi-section layout — Home, About, Skills, Projects, Contact
+- Functional contact form with:
+  - Client-side validation (required fields)
+  - Live status feedback (sending / success / error states)
+  - Auto-reply confirmation email sent to the user on submission
+- Clean, dark-themed UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# portfolio
->>>>>>> feb1715290b4ce923d4061fbe828da1e94c81580
+## Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher recommended)
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/ratanraj343/portfolio.git
+cd portfolio
+npm install
+```
+
+### Environment Variables
+
+Create a `.env` file in the project root with your EmailJS credentials:
+
+```
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+> Note: `.env` is git-ignored — you'll need to set these up yourself via [EmailJS](https://www.emailjs.com/) to run the contact form locally.
+
+### Run locally
+
+```bash
+npm run dev
+```
+
+### Build for production
+
+```bash
+npm run build
+```
+
+## Project Structure
+
+```
+src/
+├── components/     # Reusable UI components
+├── pages/          # Page-level components (Home, About, Skills, Projects, Contact)
+├── assets/         # Images, icons, static files
+└── App.jsx         # Root component and routing
+```
+
+
+## Connect
+
+- [LinkedIn](https://www.linkedin.com/in/ratan-kumar-b0b98618b/)
+- [GitHub](https://github.com/ratanraj343)
+- Email: ratan.kumar8841@gmail.com
+
+---
+
+Built with React + Vite, styled with Tailwind CSS.
