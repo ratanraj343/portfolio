@@ -1,14 +1,14 @@
 const About = () => {
   return (
-    <section className="py-32 min-h-screen ">
+    <section className="pt-32 pb-16 md:pb-32 min-h-screen">
       <div className="max-w-6xl mx-auto px-8">
-        <div className="grid grid-cols-2 gap-20 items-start">
-          <div className="space-y-8">
-            <p className="text-base font-medium uppercase tracking-[0.15em] text-slate-400">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-start">
+          <div className="space-y-4">
+            <p className="text-base font-medium uppercase tracking-[0.15em] text-slate-300">
               About
             </p>
 
-            <h2 className="text-2xl leading-relaxed font-medium max-w-xl">
+            <h2 className="text-2xl md:text-3xl leading-relaxed md:leading-relaxed font-medium max-w-xl">
               I’m a software engineer focused on creating clean and thoughtful
               digital experiences.
             </h2>

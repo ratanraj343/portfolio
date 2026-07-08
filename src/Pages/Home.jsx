@@ -12,10 +12,10 @@ const Home = () => {
     return () => clearInterval(interval);
   }, [words.length]);
   return (
-    <section className="min-h-screen flex flex-col justify-start px-40 pt-24 ">
-      <div className="mt-32 space-y-7 max-w-3xl">
+    <section className="min-h-screen flex flex-col justify-start px-6 md:px-20 lg:px-40 pt-24 ">
+      <div className="mt-16 md:mt-32 space-y-7 max-w-3xl">
         <p className="text-lg text-slate-400">Hello, I'm </p>
-        <h1 className="text-6xl font-bold ">Ratan Kumar</h1>
+        <h1 className="text-4xl md:text-6xl font-bold">Ratan Kumar</h1>
         <h2 className="text-2xl font-medium ">Software Engineer</h2>
         <p className="text-lg text-slate-400 ">
           Creating thoughtful digital experiences at the intersection of code
@@ -35,17 +35,17 @@ const Home = () => {
             </AnimatePresence>
           </span>
         </p>
-        <div className="flex gap-6 pt-6">
+        <div className="flex flex-col md:flex-row gap-4 md:gap-6 pt-6 items-center md:items-start">
           <Link
             to="/projects"
-            className="px-6 py-3 bg-indigo-600 text-white rounded-md font-medium hover:bg-indigo-500 transition-colors"
+            className="w-full md:w-auto text-center px-6 py-3 bg-indigo-600 text-white rounded-md font-medium hover:bg-indigo-500 transition-colors"
           >
             View Projects
           </Link>
 
           <Link
             to="/contact"
-            className="px-6 py-3 border border-slate-600 text-slate-200 rounded-md font-medium hover:border-indigo-400 hover:text-indigo-400 transition-colors"
+            className="w-full md:w-auto text-center px-6 py-3 border border-slate-600 text-slate-200 rounded-md font-medium hover:border-indigo-400 hover:text-indigo-400 transition-colors"
           >
             Contact Me
           </Link>

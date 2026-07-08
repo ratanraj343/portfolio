@@ -6,13 +6,13 @@ const NotFound = () => {
 
       <div className="text-center space-y-8">
 
-        <h1 className="text-[10rem] font-bold text-slate-600 leading-none">
+        <h1 className="text-8xl md:text-[10rem] font-bold text-slate-600 leading-none">
           404
         </h1>
 
         <div className="space-y-4">
 
-          <h2 className="text-3xl font-medium">
+          <h2 className="text-2xl md:text-3xl font-medium">
             Oops — this page seems to be missing.
           </h2>
 

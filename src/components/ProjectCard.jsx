@@ -8,12 +8,12 @@ const ProjectCard = ({
   codeLink,
 }) => {
   return (
-    <div className="max-w-4xl border border-slate-800 rounded-2xl p-8 bg-slate-900/40 transition-all duration-300 hover:border-slate-700 hover:bg-slate-900/60">
+    <div className="max-w-4xl border border-slate-800 rounded-2xl p-6 md:p-8 bg-slate-900/40 transition-all duration-300 hover:border-slate-700 hover:bg-slate-900/60">
 
-      <div className="grid grid-cols-[1.2fr_0.8fr] gap-10 items-start">
+      <div className="grid grid-cols-1 md:grid-cols-[1.2fr_0.8fr] gap-6 md:gap-10 items-start">
 
         {/* Left Side */}
-        <div className="space-y-6">
+        <div className="space-y-6 order-2 md:order-1">
 
           <div className="space-y-3">
 
@@ -69,7 +69,7 @@ const ProjectCard = ({
         </div>
 
         {/* Right Side */}
-        <div className="relative">
+        <div className="relative order-1 md:order-2">
 
           <div className="aspect-[4/3] rounded-xl border border-slate-800 bg-slate-900 overflow-hidden">
 

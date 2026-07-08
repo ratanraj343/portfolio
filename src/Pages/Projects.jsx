@@ -15,7 +15,7 @@ const Projects = () => {
             Projects
           </p>
 
-          <h1 className="text-3xl font-medium leading-relaxed max-w-2xl">
+          <h1 className="text-2xl md:text-3xl font-medium leading-relaxed md:leading-relaxed max-w-2xl">
             A selection of projects focused on thoughtful user experiences,
             clean frontend architecture, and modern web interfaces.
           </h1>

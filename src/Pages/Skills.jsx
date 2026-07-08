@@ -7,12 +7,12 @@ const Skills = () => {
             Skills
           </p>
 
-          <h1 className="text-3xl font-medium leading-relaxed max-w-2xl">
+          <h1 className="text-2xl md:text-3xl font-medium leading-relaxed md:leading-relaxed max-w-2xl">
             Technologies and tools I use to build modern, scalable, and
             user-focused digital experiences.
           </h1>
         </div>
-        <div className="grid grid-cols-3 gap-8 max-w-5xl pt-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-5xl pt-12 md:pt-20">
           <div className="bg-slate-900/30 border border-slate-800 rounded-2xl p-6 space-y-6">
             
             <h2 className="text-xl font-medium">Frontend</h2>

@@ -39,14 +39,14 @@ const Contact = () => {
   return (
     <section className="pt-32 pb-20 min-h-screen">
       <div className="max-w-6xl mx-auto px-8">
-        <div className="grid grid-cols-2 gap-20 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-start">
           {/* Left Side */}
-          <div className="space-y-6">
+          <div className="space-y-4">
             <p className="text-base font-medium uppercase tracking-[0.15em] text-slate-300">
               Contact
             </p>
 
-            <h1 className="text-4xl font-medium leading-relaxed max-w-md">
+            <h1 className="text-2xl md:text-3xl font-medium leading-relaxed md:leading-relaxed max-w-xl -mb-3 md:-mb-4">
               Let’s build something meaningful together.
             </h1>
 
