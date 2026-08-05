@@ -1,4 +1,4 @@
-import ProfessionalExperience from "../Components/ProfessionalExperience";
+import ProfessionalExperience from "../components/ProfessionalExperience";
 const About = () => {
   return (
     <section className="pt-32 pb-16 min-h-screen">
