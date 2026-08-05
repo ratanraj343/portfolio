@@ -1,6 +1,7 @@
+import ProfessionalExperience from "../Components/ProfessionalExperience";
 const About = () => {
   return (
-    <section className="pt-32 pb-16 md:pb-32 min-h-screen">
+    <section className="pt-32 pb-16 min-h-screen">
       <div className="max-w-6xl mx-auto px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-start">
           <div className="space-y-4">
@@ -42,7 +43,7 @@ const About = () => {
                 </p>
 
                 <div className="space-y-2">
-                  <h3 className="text-3xl font-semibold">3+</h3>
+                  <h3 className="text-3xl font-semibold">4+</h3>
 
                   <p className="text-slate-300">Years of Experience</p>
                 </div>
@@ -68,7 +69,12 @@ const About = () => {
             </div>
           </div>
         </div>
+         <div className="pt-20">
+          <ProfessionalExperience />
+        </div>
+       
       </div>
+      
     </section>
   );
 };
