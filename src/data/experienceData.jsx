@@ -23,7 +23,7 @@ const experienceData = [
       "Improved UI performance and user experience across multiple features",
       "Participated in code reviews and learned React best practices",
       "Worked in Agile sprint cycles with cross-functional teams"
-]
+    ]
   },
  {
     title: "JUNIOR SOFTWARE ENGINEER — Frontend",

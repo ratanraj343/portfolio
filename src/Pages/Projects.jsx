@@ -24,25 +24,26 @@ const Projects = () => {
 
         {/* Projects List */}
         <div className="space-y-10">
+          <ProjectCard
+          type="Featured Project" 
+            title="Tummy Trek"
+            description="Full-stack restaurant discovery platform with React frontend and Express backend. 
+            Features dynamic menu exploration, real-time data integration, and optimized performance.
+            Deployed on Render and Vercel with production-ready architecture."
+            tags={["React","Express","Tailwind","Parcel"]}
+            image={tummyTrek}
+            liveLink="https://tummy-trek.vercel.app/"
+            codeLink="https://github.com/ratanraj343/tummy-trek"
+          />
 
           <ProjectCard
-            type="Featured Project"
+             type="Frontend Practice"
             title="Amron"
             description="A responsive automotive-focused web application built with React, focused on clean UI architecture, reusable components, and smooth user experience."
             tags={["React", "CSS", "JavaScript"]}
             image={amronPreview}
             liveLink="https://amaron-react.vercel.app/"
             codeLink="https://github.com/ratanraj343/amaron-react"
-          />
-
-          <ProjectCard
-            type="Frontend Practice"
-            title="Tummy Trek"
-            description="A food discovery web application designed to explore restaurants, menus, and responsive layouts while practicing component-based frontend development."
-            tags={["React", "Parcel", "CSS", "Tailwind"]}
-            image={tummyTrek}
-            liveLink="https://tummy-trek.vercel.app/"
-            codeLink="https://github.com/ratanraj343/tummy-trek"
           />
 
           <ProjectCard
